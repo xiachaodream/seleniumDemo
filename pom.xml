@@ -54,14 +54,9 @@
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.12.4</version>
 			<configuration>
-				<!-- <includes> <include>../*.java</include> </includes>自动识别和运行src/test目录 -->
-				<includes> 
-					<skipTests>false</skipTests> 
-				</includes>
-				 
 				<!-- maven test 执行testng.xml -->
 				<suiteXmlFiles>
-					<suiteXmlFile>/res/testng.xml</suiteXmlFile>
+					<suiteXmlFile>res/testing.xml</suiteXmlFile>
 				</suiteXmlFiles>
 				<property>
                      <name>listener</name>                      
