@@ -4,7 +4,7 @@
     <test name="MusicCloudTest">
         <classes>
             <class name="com.testing.seleniumDemo.seleniumDemo.MusicCloudTest"/>
-            <class name="com.testing.seleniumDemo.seleniumDemo.MusicCloudTest2"/>
+            <!-- <class name="com.testing.seleniumDemo.seleniumDemo.MusicCloudTest2"/> -->
         </classes>
     </test>
     
